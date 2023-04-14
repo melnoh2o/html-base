@@ -1,0 +1,98 @@
+body {
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-bottom: 40px;
+  padding-left: 200px;
+  position: relative;
+}
+
+.carousel {
+  padding: 30px 0px;
+  /* float: left; */
+  /* width: 570px; */
+  /* margin: 0 auto; */
+  height: 420px;
+  /* top: -70%; */
+  /* left: 40%; */
+  /* position: absolute; */
+}
+
+.carousel img {
+  width: 650px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.myCarousel {
+  /* margin-top: 120px; */
+}
+
+.h2,
+h2 {
+  font-size: 50px;
+}
+
+h2.top {
+  font-size: 70px;
+  margin-bottom: 10px;
+  /* margin-left: 30px; */
+  color: #2b2b2b;
+}
+
+.text_ll ul {
+  order: 2;
+  list-style: none;
+  padding: 30px 0;
+  /* margin: 0px 0px; */
+  /* margin-top: 100px; */
+  font-size: 20px;
+}
+
+.text_ll ul li {
+  margin-bottom: 10px;
+}
+
+.text_ll ul li span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.text_ll ul li:last-child {
+  margin-bottom: 0;
+}
+
+.text_lll {
+  top: 85%;
+  /* position: absolute; */
+  text-align: left;
+  /* padding: 50px; */
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.text_line {
+  text-align: center;
+  font-size: 24px;
+}
+.back-link {
+  display: inline-block;
+  padding: 5px 60px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  float: right;
+}
+
+.back-link:hover {
+  background-color: transparent;
+}
+
+.text__flex {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  /* max-width: 75%; */
+}
